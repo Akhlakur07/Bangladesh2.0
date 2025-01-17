@@ -242,3 +242,44 @@ body {
   text-align: left;
   margin: 0 24px 48px 24px;
 }
+
+.op {
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+.opinion-table {
+  width: 98%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.opinion-table thead tr {
+  background-color: rgb(198, 228, 214);
+  color: rgb(14, 14, 14);
+  text-align: center;
+}
+
+.opinion-table th,
+.opinion-table td {
+  padding: 25px;
+  border: transparent;
+}
+
+.opinion-table select {
+  box-sizing: border-box;
+  border: transparent;
+  border-radius: 4px;
+  padding: 10px;
+  background: rgb(198, 228, 214);
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}

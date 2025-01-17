@@ -1,7 +1,7 @@
 body {
   font-family: Fira Sans;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 6.5%;
+  margin-right: 6.5%;
   padding: 0;
 }
 
@@ -30,7 +30,12 @@ body {
   color: rgb(0, 106, 80);
   box-sizing: border-box;
   border: 1px solid rgb(0, 106, 80);
-  border-radius: 8px;
+  border-radius: 7px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 
 .hero {
@@ -74,7 +79,6 @@ body {
   background: rgb(0, 106, 80);
   padding: 17px 34px 17px 34px;
   color: rgb(255, 255, 255);
-
   font-size: 18px;
   font-weight: 600;
   line-height: 22px;
@@ -99,7 +103,6 @@ body {
 
 .pillars {
   display: flex;
-
 }
 
 .pillar-content {
@@ -109,4 +112,133 @@ body {
   background: rgb(255, 255, 255);
   margin-right: 24px;
   padding: 24px;
+}
+
+.the-vision h2 {
+  margin-bottom: 32px;
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.the-vision p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.visions {
+  display: flex;
+}
+
+.vision-content1 {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  margin-right: 24px;
+  padding: 32px;
+  background: rgba(21, 86, 198, 0.2);
+  border: transparent;
+}
+
+.vision-content1 button {
+  border-radius: 8px;
+  background: rgb(84, 144, 245);
+  padding: 11px 20px 11px 20px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  border: transparent;
+}
+
+.vision-content2 {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  margin-right: 24px;
+  padding: 32px;
+  background: rgb(198, 228, 214);
+  border: transparent;
+}
+
+.vision-content2 button {
+  border-radius: 8px;
+  background: rgb(9, 161, 92);
+  padding: 11px 20px 11px 20px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  border: transparent;
+}
+
+.vision-content3 {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  margin-right: 24px;
+  padding: 32px;
+  background: rgb(247, 235, 207);
+  border: transparent;
+}
+
+.vision-content3 button {
+  border-radius: 8px;
+  background: rgb(255, 194, 57);
+  padding: 11px 20px 11px 20px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  border: transparent;
+}
+
+.quote {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 48px 24px 0 24px;
+  background-image: url(assets/quote-bg.png);
+  background-repeat: no-repeat;
+  padding-top: 10px;
+}
+
+.chief h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 0 24px 0 24px;
+}
+
+.chief p {
+  color: rgba(14, 14, 14, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 0 24px 48px 24px;
 }

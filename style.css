@@ -33,7 +33,6 @@ body {
   border-radius: 8px;
 }
 
-
 .hero {
   position: static;
   display: flex;
@@ -52,7 +51,7 @@ body {
 
 .two {
   color: rgba(14, 14, 14, 0.5);
-  font-family: Fira Sans;
+
   font-size: 24px;
   font-weight: 500;
   line-height: 29px;
@@ -62,7 +61,7 @@ body {
 
 .text {
   color: rgb(14, 14, 14);
-  font-family: Fira Sans;
+
   font-size: 56px;
   font-weight: 700;
   line-height: 67px;
@@ -75,7 +74,7 @@ body {
   background: rgb(0, 106, 80);
   padding: 17px 34px 17px 34px;
   color: rgb(255, 255, 255);
-  font-family: Fira Sans;
+
   font-size: 18px;
   font-weight: 600;
   line-height: 22px;
@@ -85,5 +84,29 @@ body {
 }
 
 .explore button:hover {
-    background: rgb(8, 86, 66);
+  background: rgb(8, 86, 66);
+}
+
+.pillar-of-bd h2 {
+  margin-bottom: 80px;
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.pillars {
+  display: flex;
+
+}
+
+.pillar-content {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  margin-right: 24px;
+  padding: 24px;
 }

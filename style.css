@@ -1,9 +1,22 @@
 body {
   font-family: Fira Sans;
+  padding: 0;
+}
+
+header {
+  font-family: Fira Sans;
   margin-left: 6.5%;
   margin-right: 6.5%;
   padding: 0;
 }
+
+main {
+  font-family: Fira Sans;
+  margin-left: 6.5%;
+  margin-right: 6.5%;
+  padding: 0;
+}
+
 
 .nav {
   background-color: rgb(245, 245, 245);
@@ -412,4 +425,56 @@ body {
   letter-spacing: 0%;
   text-align: left;
   border: transparent;
+  margin-bottom: 40px;
+}
+
+.newsletter {
+  text-align: center;
+  background-color: rgb(198, 228, 214);
+  padding: 80px 100px 80px 100px;
+}
+
+.newsletter h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.newsletter p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.newsletter input {
+  padding: 18px 40px 18px 40px;
+  border-radius: 8px 0px 0px 8px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  border: transparent;
+}
+
+.newsletter button {
+  padding: 17px 34px 17px 34px;
+  border-radius: 0px 8px 8px 0px;
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  border: transparent;
+}
+
+.end {
+  text-align: center;
 }

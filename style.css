@@ -283,3 +283,71 @@ body {
   font-size: 16px;
   font-weight: 600;
 }
+
+.recent-news h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.recent-news p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.news-sec {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.news-cont {
+  display: flex;
+  padding-top: 48px;
+}
+
+
+.image img {
+  border-radius: 24px;
+  margin-right: 20px;
+}
+
+.image2 img {
+  border-radius: 24px;
+  margin-left: 20px;
+}
+
+.sat-news h3 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+  color: rgba(14, 14, 14, 0.8)
+}
+
+.sat-news p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+
+.sat-news button {
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  padding: 11px 20px 11px 20px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  border: transparent;
+}
